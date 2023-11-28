@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="amazon.svg" />
+    <title>Amazon Sign In</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .container {
+        height: 935px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .form {
+        width: 350px;
+        border: 1px gainsboro solid;
+        margin-top: -400px;
+        border-radius: 10px;
+        padding: 20px 26px;
+      }
+      h1 {
+        font-size: 26px;
+        font-weight: 400;
+      }
+      .enter-mail {
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+      input {
+        width: 300px;
+        height: 30px;
+        margin-top: 5px;
+      }
+      button {
+        width: 300px;
+        height: 30px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 15px;
+        background-color: #f7ca00;
+      }
+      .tnc {
+        font-size: 12px;
+        margin-top: 20px;
+      }
+      details {
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+      summary {
+        font-size: 13px;
+      }
+      .s-fix {
+        margin-left: 13px;
+        margin-top: 8px;
+      }
+      .b1 {
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+      .b2 {
+        font-size: 13px;
+        margin-top: 8px;
+      }
+      a {
+        text-decoration: none;
+        color: steelblue;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form class="form">
+          <h1>Sign in</h1>
+          <p class="enter-mail">Email or mobile phone number</p>
+          <input type="text" />
+          <button>Continue</button>
+          <p class="tnc">
+            By continuing you agree to Amazon's
+            <a href="#">Conditions of Use</a> and
+            <a href="#">Privacy Notice.</a>
+          </p>
+          <details>
+            <summary><a href="#">Need help?</a></summary>
+            <summary class="s-fix"><a href="#">Forgot Password</a></summary>
+            <summary class="s-fix">
+              <a href="#">Other issue with Sing-In</a>
+            </summary>
+          </details>
+          <hr />
+          <p class="b1">Buying for work?</p>
+          <div class="b2"><a href="#">Shop on Amazon business</a></div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
